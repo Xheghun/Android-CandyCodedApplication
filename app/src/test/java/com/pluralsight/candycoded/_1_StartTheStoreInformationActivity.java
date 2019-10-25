@@ -118,7 +118,7 @@ public class _1_StartTheStoreInformationActivity {
                     .getMethod("onOptionsItemSelected", MenuItem.class)
                     .getDeclaringClass();
         } catch (NoSuchMethodException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
         }
 
         assertEquals("onOptionsItemSelected() method doesn't exist in MainActivity class.",
